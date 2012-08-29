@@ -7,11 +7,11 @@ require "remote_notifier/version"
 Gem::Specification.new do |s|
   s.name        = "remote_notifier"
   s.version     = RemoteNotifier::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RemoteNotifier."
-  s.description = "TODO: Description of RemoteNotifier."
+  s.authors     = ["Piotr Szmielew"]
+  s.email       = ["p.szmielew@ava.waw.pl"]
+  s.homepage    = "http://github.com/esse/remote_notifier"
+  s.summary     = "Store your errors on other server - and manage them!."
+  s.description = "Store your errors on other server - and manage them!."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
